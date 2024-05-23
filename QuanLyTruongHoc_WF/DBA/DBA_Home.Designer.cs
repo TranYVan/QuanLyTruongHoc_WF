@@ -37,6 +37,7 @@
             auditPage = new TabPage();
             button1 = new Button();
             tabControl1.SuspendLayout();
+            UsersRolesPage.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -69,7 +70,7 @@
             RolesPage.Location = new Point(4, 24);
             RolesPage.Name = "RolesPage";
             RolesPage.Padding = new Padding(3);
-            RolesPage.Size = new Size(791, 497);
+            RolesPage.Size = new Size(778, 497);
             RolesPage.TabIndex = 1;
             RolesPage.Text = "Roles of User";
             RolesPage.UseVisualStyleBackColor = true;
@@ -79,7 +80,7 @@
             privilegesPage.Location = new Point(4, 24);
             privilegesPage.Name = "privilegesPage";
             privilegesPage.Padding = new Padding(3);
-            privilegesPage.Size = new Size(791, 497);
+            privilegesPage.Size = new Size(778, 497);
             privilegesPage.TabIndex = 2;
             privilegesPage.Text = "Object Privileges";
             privilegesPage.UseVisualStyleBackColor = true;
@@ -89,7 +90,7 @@
             SysPrivilegesPage.Location = new Point(4, 24);
             SysPrivilegesPage.Name = "SysPrivilegesPage";
             SysPrivilegesPage.Padding = new Padding(3);
-            SysPrivilegesPage.Size = new Size(791, 497);
+            SysPrivilegesPage.Size = new Size(778, 497);
             SysPrivilegesPage.TabIndex = 4;
             SysPrivilegesPage.Text = "System Privileges";
             SysPrivilegesPage.UseVisualStyleBackColor = true;
@@ -99,7 +100,7 @@
             tablesViewsTab.Location = new Point(4, 24);
             tablesViewsTab.Name = "tablesViewsTab";
             tablesViewsTab.Padding = new Padding(3);
-            tablesViewsTab.Size = new Size(791, 497);
+            tablesViewsTab.Size = new Size(778, 497);
             tablesViewsTab.TabIndex = 3;
             tablesViewsTab.Text = "Tables & Views";
             tablesViewsTab.UseVisualStyleBackColor = true;
@@ -109,7 +110,7 @@
             auditPage.Location = new Point(4, 24);
             auditPage.Name = "auditPage";
             auditPage.Padding = new Padding(3);
-            auditPage.Size = new Size(791, 497);
+            auditPage.Size = new Size(778, 497);
             auditPage.TabIndex = 5;
             auditPage.Text = "Audit";
             auditPage.UseVisualStyleBackColor = true;
@@ -139,6 +140,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "QUẢN LÝ TRƯỜNG HỌC";
             tabControl1.ResumeLayout(false);
+            UsersRolesPage.ResumeLayout(false);
             ResumeLayout(false);
         }
 
